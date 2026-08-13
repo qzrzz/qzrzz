@@ -14,6 +14,10 @@ const hidden = new Set([
   ...sortConfig.HIDEs,
 ]);
 
+function tableCells(row) {
+  return row.slice(2, -2).split(" | ");
+}
+
 test("renders the profile and repository sections", () => {
   const readme = renderReadme(config, repositories);
 
@@ -77,7 +81,7 @@ test("places only website badges in the Website column", () => {
     const websiteBadge = "[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)]";
     const lines = readme.split("\n");
     const row = lines.find((line) => line.startsWith(`| ${titleLink} |`));
-    const websiteCell = row?.split(" | ")[3];
+    const websiteCell = tableCells(row)[3];
     const expected = repository.homepage
       ? `${websiteBadge}(${repository.homepage})`
       : "—";
@@ -101,7 +105,7 @@ test("places language badges in the Lang column", () => {
   for (const repository of repositories.filter(({ name }) => !hidden.has(name))) {
     const titleLink = `[**${repository.name}**](${repository.html_url})`;
     const row = readme.split("\n").find((line) => line.startsWith(`| ${titleLink} |`));
-    const languageCell = row?.split(" | ")[1];
+    const languageCell = tableCells(row)[1];
 
     if (repository.language) {
       assert.match(languageCell, new RegExp(`img\\.shields\\.io/badge/${repository.language}-`));
