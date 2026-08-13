@@ -124,18 +124,24 @@ function repositoryBadges(repository, username) {
   return badges.join(" ");
 }
 
-function repositoryList(repositories, username) {
-  return repositories.map((repository) => {
+function repositoryTable(repositories, username) {
+  const rows = repositories.map((repository) => {
     const description = escapeMarkdown(repository.description ?? "No description provided.");
     const name = `[**${escapeMarkdown(repository.name)}**](${repository.html_url})`;
 
-    return `### ${name}\n\n${description}\n\n${repositoryBadges(repository, username)}`;
-  }).join("\n\n");
+    return `| ${name} | ${description} | ${repositoryBadges(repository, username)} |`;
+  });
+
+  return [
+    "| Repository | About | Badges |",
+    "| :-- | :-- | :-- |",
+    ...rows,
+  ].join("\n");
 }
 
 function section(title, repositories, username) {
   if (repositories.length === 0) return null;
-  return [`## ${title}`, repositoryList(repositories, username)].join("\n\n");
+  return [`## ${title}`, repositoryTable(repositories, username)].join("\n\n");
 }
 
 function sortByPriority(repositories, priorityNames = []) {

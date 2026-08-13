@@ -26,8 +26,8 @@ test("renders the profile and repository sections", () => {
   assert.doesNotMatch(readme, /## Archive/);
   assert.match(readme, /img\.shields\.io/);
   assert.doesNotMatch(readme, /<p align="center">\[!\[/);
-  assert.doesNotMatch(readme, /\| Repository \|/);
-  assert.doesNotMatch(readme, /\| :-- \|/);
+  assert.match(readme, /\| Repository \| About \| Badges \|/);
+  assert.match(readme, /\| :-- \| :-- \| :-- \|/);
 });
 
 test("shows only programming language badges in the profile header", () => {
@@ -63,8 +63,8 @@ test("lists every visible repository exactly once", () => {
       `${repository.name} should have one title link`,
     );
     assert.ok(
-      readme.split("\n").some((line) => line.startsWith(`### ${titleLink}`)),
-      `${repository.name} should have its own heading`,
+      readme.split("\n").some((line) => line.startsWith(`| ${titleLink} |`)),
+      `${repository.name} should have its own table row`,
     );
   }
 });
@@ -78,17 +78,10 @@ test("places website badges first on repository badge lines", () => {
     const titleLink = `[**${repository.name}**](${repository.html_url})`;
     const websiteBadge = "[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)]";
     const lines = readme.split("\n");
-    const heading = lines
-      .find((line) => line.startsWith(`### ${titleLink}`));
-    const badgeLine = lines
-      .find((line) => line.includes(`${websiteBadge}(${repository.homepage})`));
-    assert.equal(
-      heading,
-      `### ${titleLink}`,
-      `${repository.name} heading should contain only its name`,
-    );
+    const row = lines.find((line) => line.startsWith(`| ${titleLink} |`));
+    const badgeCell = row?.split(" | ")[2];
     assert.ok(
-      badgeLine?.startsWith(`${websiteBadge}(${repository.homepage})`),
+      badgeCell?.startsWith(`${websiteBadge}(${repository.homepage})`),
       `${repository.name} should show its website as the first badge`,
     );
   }
@@ -98,16 +91,16 @@ test("places website badges first on repository badge lines", () => {
 
 test("uses sort.config.mjs priorities and hidden repositories", () => {
   const readme = renderReadme(config, repositories);
-  const repositoryHeadings = readme
+  const repositoryRows = readme
     .split("\n")
-    .filter((line) => line.startsWith("### "))
+    .filter((line) => line.startsWith("| [**"))
     .join("\n");
 
   for (const priorities of [sortConfig.APPs, sortConfig.PKGs, sortConfig.RESs ?? []]) {
     const names = priorities.filter((name) => name && !hidden.has(name));
     for (let index = 1; index < names.length; index += 1) {
       assert.ok(
-        repositoryHeadings.indexOf(names[index - 1]) < repositoryHeadings.indexOf(names[index]),
+        repositoryRows.indexOf(names[index - 1]) < repositoryRows.indexOf(names[index]),
         `${names[index - 1]} should appear before ${names[index]}`,
       );
     }

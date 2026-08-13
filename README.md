@@ -8,110 +8,34 @@
 
 ## Apps
 
-### [**QLaunch**](https://github.com/qzrzz/QLaunch)
-
-🚀 A fast, minimal, high-quality open-source alternative to Launchpad for macOS.
-
-[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QLaunch) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QLaunch?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QLaunch/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QLaunch?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QLaunch/commits)
-
-### [**Qjiao**](https://github.com/qzrzz/Qjiao)
-
-🫑 Qjiao terminal workspace for macOS. Forked from Kero.
-
-[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/Qjiao/) [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qjiao) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qjiao?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qjiao/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qjiao?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qjiao/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git)
-
-### [**Qf**](https://github.com/qzrzz/Qf)
-
-💨 Qf 轻放 - System Context Enrichment
-
-[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qf) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qf?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qf/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qf?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qf/commits)
-
-### [**AuBookPlayer**](https://github.com/qzrzz/AuBookPlayer)
-
-📚 本地有声书播放器 Android local audiobook player.
-
-[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/AuBookPlayer/) [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/qzrzz/AuBookPlayer) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/AuBookPlayer?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/AuBookPlayer/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/AuBookPlayer?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/AuBookPlayer/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git)
-
-### [**JuRename**](https://github.com/qzrzz/JuRename)
-
-🔢 序号识别重命名文件 (macOS,Windows)
-
-[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/JuRename/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/JuRename) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/JuRename?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/JuRename/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/JuRename?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/JuRename/commits)
-
-### [**QCopy**](https://github.com/qzrzz/QCopy)
-
-🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.
-
-[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/QCopy/) [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QCopy) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QCopy?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QCopy/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QCopy?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QCopy/commits)
-
-### [**GitQ**](https://github.com/qzrzz/GitQ)
-
-👨🏻‍💻 Quickly switch Git user config.
-
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/qzrzz/GitQ) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/GitQ?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/GitQ/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/GitQ?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/GitQ/commits)
-
-### [**xm2aac**](https://github.com/qzrzz/xm2aac)
-
-🐯 covert xm file to aac.
-
-[![GitHub stars](https://img.shields.io/github/stars/qzrzz/xm2aac?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/xm2aac/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/xm2aac?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/xm2aac/commits) ![Archived](https://img.shields.io/badge/archived-777777?style=flat-square&logo=github)
+| Repository | About | Badges |
+| :-- | :-- | :-- |
+| [**QLaunch**](https://github.com/qzrzz/QLaunch) | 🚀 A fast, minimal, high-quality open-source alternative to Launchpad for macOS. | [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QLaunch) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QLaunch?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QLaunch/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QLaunch?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QLaunch/commits) |
+| [**Qjiao**](https://github.com/qzrzz/Qjiao) | 🫑 Qjiao terminal workspace for macOS. Forked from Kero. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/Qjiao/) [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qjiao) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qjiao?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qjiao/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qjiao?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qjiao/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git) |
+| [**Qf**](https://github.com/qzrzz/Qf) | 💨 Qf 轻放 - System Context Enrichment | [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qf) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qf?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qf/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qf?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qf/commits) |
+| [**AuBookPlayer**](https://github.com/qzrzz/AuBookPlayer) | 📚 本地有声书播放器 Android local audiobook player. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/AuBookPlayer/) [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/qzrzz/AuBookPlayer) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/AuBookPlayer?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/AuBookPlayer/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/AuBookPlayer?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/AuBookPlayer/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git) |
+| [**JuRename**](https://github.com/qzrzz/JuRename) | 🔢 序号识别重命名文件 (macOS,Windows) | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/JuRename/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/JuRename) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/JuRename?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/JuRename/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/JuRename?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/JuRename/commits) |
+| [**QCopy**](https://github.com/qzrzz/QCopy) | 🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/QCopy/) [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QCopy) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QCopy?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QCopy/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QCopy?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QCopy/commits) |
+| [**GitQ**](https://github.com/qzrzz/GitQ) | 👨🏻‍💻 Quickly switch Git user config. | [![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/qzrzz/GitQ) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/GitQ?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/GitQ/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/GitQ?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/GitQ/commits) |
+| [**xm2aac**](https://github.com/qzrzz/xm2aac) | 🐯 covert xm file to aac. | [![GitHub stars](https://img.shields.io/github/stars/qzrzz/xm2aac?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/xm2aac/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/xm2aac?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/xm2aac/commits) ![Archived](https://img.shields.io/badge/archived-777777?style=flat-square&logo=github) |
 
 ## Packages
 
-### [**MinMPHash**](https://github.com/qzrzz/MinMPHash)
-
-🦋 JavaScript/TypeScript Minimal Perfect Hash & Lookup
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/MinMPHash) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/MinMPHash?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/MinMPHash/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/MinMPHash?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/MinMPHash/commits)
-
-### [**TableDB**](https://github.com/qzrzz/TableDB)
-
-🗃️ The simplest NoSQL ORM: Seamlessly switch between SQLite and MongoDB.
-
-[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/TableDB/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/TableDB) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/TableDB?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/TableDB/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/TableDB?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/TableDB/commits)
-
-### [**indexless**](https://github.com/qzrzz/indexless)
-
-🖇️ Fractional index
-
-[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/indexless/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/indexless) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/indexless?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/indexless/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/indexless?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/indexless/commits)
-
-### [**LocalGlob**](https://github.com/qzrzz/LocalGlob)
-
-No description provided.
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/LocalGlob) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/LocalGlob?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/LocalGlob/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/LocalGlob?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/LocalGlob/commits)
-
-### [**RemoteCtx**](https://github.com/qzrzz/RemoteCtx)
-
-🛰️ Access another JavaScript context just like local.
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/RemoteCtx) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/RemoteCtx?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/RemoteCtx/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/RemoteCtx?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/RemoteCtx/commits)
+| Repository | About | Badges |
+| :-- | :-- | :-- |
+| [**MinMPHash**](https://github.com/qzrzz/MinMPHash) | 🦋 JavaScript/TypeScript Minimal Perfect Hash & Lookup | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/MinMPHash) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/MinMPHash?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/MinMPHash/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/MinMPHash?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/MinMPHash/commits) |
+| [**TableDB**](https://github.com/qzrzz/TableDB) | 🗃️ The simplest NoSQL ORM: Seamlessly switch between SQLite and MongoDB. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/TableDB/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/TableDB) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/TableDB?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/TableDB/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/TableDB?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/TableDB/commits) |
+| [**indexless**](https://github.com/qzrzz/indexless) | 🖇️ Fractional index | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/indexless/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/indexless) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/indexless?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/indexless/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/indexless?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/indexless/commits) |
+| [**LocalGlob**](https://github.com/qzrzz/LocalGlob) | No description provided. | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/LocalGlob) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/LocalGlob?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/LocalGlob/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/LocalGlob?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/LocalGlob/commits) |
+| [**RemoteCtx**](https://github.com/qzrzz/RemoteCtx) | 🛰️ Access another JavaScript context just like local. | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/RemoteCtx) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/RemoteCtx?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/RemoteCtx/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/RemoteCtx?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/RemoteCtx/commits) |
 
 ## Resources
 
-### [**RetroNokia_6708**](https://github.com/qzrzz/RetroNokia_6708)
-
-Retro Nokia 6708 ROM
-
-[![GitHub stars](https://img.shields.io/github/stars/qzrzz/RetroNokia_6708?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/RetroNokia_6708/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/RetroNokia_6708?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/RetroNokia_6708/commits)
-
-### [**newpkg**](https://github.com/qzrzz/newpkg)
-
-🐣 TypeScript new project template.
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/newpkg) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/newpkg?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/newpkg/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/newpkg?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/newpkg/commits)
-
-### [**SF-Symbols-JSON**](https://github.com/qzrzz/SF-Symbols-JSON)
-
-🍎 SF Symbols Chars and Keys in JSON format.
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/SF-Symbols-JSON) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/SF-Symbols-JSON?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/SF-Symbols-JSON/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/SF-Symbols-JSON?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/SF-Symbols-JSON/commits)
-
-### [**Kindle-Fonts-Test**](https://github.com/qzrzz/Kindle-Fonts-Test)
-
-🗚 fonts
-
-[![GitHub stars](https://img.shields.io/github/stars/qzrzz/Kindle-Fonts-Test?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Kindle-Fonts-Test/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Kindle-Fonts-Test?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Kindle-Fonts-Test/commits)
+| Repository | About | Badges |
+| :-- | :-- | :-- |
+| [**RetroNokia_6708**](https://github.com/qzrzz/RetroNokia_6708) | Retro Nokia 6708 ROM | [![GitHub stars](https://img.shields.io/github/stars/qzrzz/RetroNokia_6708?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/RetroNokia_6708/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/RetroNokia_6708?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/RetroNokia_6708/commits) |
+| [**newpkg**](https://github.com/qzrzz/newpkg) | 🐣 TypeScript new project template. | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/newpkg) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/newpkg?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/newpkg/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/newpkg?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/newpkg/commits) |
+| [**SF-Symbols-JSON**](https://github.com/qzrzz/SF-Symbols-JSON) | 🍎 SF Symbols Chars and Keys in JSON format. | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/SF-Symbols-JSON) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/SF-Symbols-JSON?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/SF-Symbols-JSON/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/SF-Symbols-JSON?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/SF-Symbols-JSON/commits) |
+| [**Kindle-Fonts-Test**](https://github.com/qzrzz/Kindle-Fonts-Test) | 🗚 fonts | [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Kindle-Fonts-Test?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Kindle-Fonts-Test/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Kindle-Fonts-Test?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Kindle-Fonts-Test/commits) |
 
 <p align="center"><sub>Badges powered by <a href="https://shields.io/">Shields.io</a>.</sub></p>
