@@ -72,76 +72,38 @@ function languageBadge(language, format = "markdown") {
   return format === "html" ? htmlImage(language, source) : image(language, source);
 }
 
-function repositoryBadges(repository, username) {
-  const repositorySegment = encodeURIComponent(repository.name);
-  const ownerSegment = encodeURIComponent(username);
-  const badges = [];
+function websiteBadge(repository) {
+  if (!repository.homepage) return "—";
 
-  if (repository.homepage) {
-    badges.push(
-      linkedImage(
-        "Website",
-        staticBadge("website", "4285F4", {
-          logo: "googlechrome",
-          logoColor: "white",
-        }),
-        repository.homepage,
-      ),
-    );
-  }
-
-  if (repository.language) {
-    badges.push(
-      linkedImage(
-        repository.language,
-        languageBadgeSource(repository.language),
-        repository.html_url,
-      ),
-    );
-  }
-
-  badges.push(
-    linkedImage(
-      "GitHub stars",
-      `https://img.shields.io/github/stars/${ownerSegment}/${repositorySegment}?style=flat-square&label=stars&color=yellow`,
-      `${repository.html_url}/stargazers`,
-    ),
-    linkedImage(
-      "Last commit",
-      `https://img.shields.io/github/last-commit/${ownerSegment}/${repositorySegment}?style=flat-square&label=updated&color=blue`,
-      `${repository.html_url}/commits`,
-    ),
+  return linkedImage(
+    "Website",
+    staticBadge("website", "4285F4", {
+      logo: "googlechrome",
+      logoColor: "white",
+    }),
+    repository.homepage,
   );
-
-  if (repository.fork) {
-    badges.push(image("Fork", staticBadge("fork", "8A2BE2", { logo: "git" })));
-  }
-
-  if (repository.archived) {
-    badges.push(image("Archived", staticBadge("archived", "777777", { logo: "github" })));
-  }
-
-  return badges.join(" ");
 }
 
-function repositoryTable(repositories, username) {
+function repositoryTable(repositories) {
   const rows = repositories.map((repository) => {
     const description = escapeMarkdown(repository.description ?? "No description provided.");
     const name = `[**${escapeMarkdown(repository.name)}**](${repository.html_url})`;
+    const language = repository.language ? languageBadge(repository.language) : "—";
 
-    return `| ${name} | ${description} | ${repositoryBadges(repository, username)} |`;
+    return `| ${name} | ${language} | ${description} | ${websiteBadge(repository)} |`;
   });
 
   return [
-    "| Repository | About | Badges |",
-    "| :-- | :-- | :-- |",
+    "| Repository | Lang | About | Website |",
+    "| :-- | :-- | :-- | :-- |",
     ...rows,
   ].join("\n");
 }
 
-function section(title, repositories, username) {
+function section(title, repositories) {
   if (repositories.length === 0) return null;
-  return [`## ${title}`, repositoryTable(repositories, username)].join("\n\n");
+  return [`## ${title}`, repositoryTable(repositories)].join("\n\n");
 }
 
 function sortByPriority(repositories, priorityNames = []) {
@@ -227,7 +189,7 @@ export function renderReadme(profile, repositories, sorting = sortConfig) {
 
   const sections = resolveSections(profile, visible, hidden, sorting)
     .map(({ title, repositories: sectionRepositories }) => (
-      section(title, sectionRepositories, profile.username)
+      section(title, sectionRepositories)
     ))
     .filter(Boolean);
 

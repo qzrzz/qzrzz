@@ -26,8 +26,8 @@ test("renders the profile and repository sections", () => {
   assert.doesNotMatch(readme, /## Archive/);
   assert.match(readme, /img\.shields\.io/);
   assert.doesNotMatch(readme, /<p align="center">\[!\[/);
-  assert.match(readme, /\| Repository \| About \| Badges \|/);
-  assert.match(readme, /\| :-- \| :-- \| :-- \|/);
+  assert.match(readme, /\| Repository \| Lang \| About \| Website \|/);
+  assert.match(readme, /\| :-- \| :-- \| :-- \| :-- \|/);
 });
 
 test("shows only programming language badges in the profile header", () => {
@@ -69,24 +69,46 @@ test("lists every visible repository exactly once", () => {
   }
 });
 
-test("places website badges first on repository badge lines", () => {
+test("places only website badges in the Website column", () => {
   const readme = renderReadme(config, repositories);
 
-  for (const repository of repositories.filter(({ name, homepage }) => (
-    homepage && !hidden.has(name)
-  ))) {
+  for (const repository of repositories.filter(({ name }) => !hidden.has(name))) {
     const titleLink = `[**${repository.name}**](${repository.html_url})`;
     const websiteBadge = "[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)]";
     const lines = readme.split("\n");
     const row = lines.find((line) => line.startsWith(`| ${titleLink} |`));
-    const badgeCell = row?.split(" | ")[2];
-    assert.ok(
-      badgeCell?.startsWith(`${websiteBadge}(${repository.homepage})`),
-      `${repository.name} should show its website as the first badge`,
+    const websiteCell = row?.split(" | ")[3];
+    const expected = repository.homepage
+      ? `${websiteBadge}(${repository.homepage})`
+      : "—";
+    assert.equal(
+      websiteCell,
+      expected,
+      `${repository.name} should have the expected Website cell`,
     );
   }
 
   assert.doesNotMatch(readme, /\[Website ↗\]/);
+  assert.doesNotMatch(readme, /github\/stars/);
+  assert.doesNotMatch(readme, /github\/last-commit/);
+  assert.doesNotMatch(readme, /!\[Fork\]/);
+  assert.doesNotMatch(readme, /!\[Archived\]/);
+});
+
+test("places language badges in the Lang column", () => {
+  const readme = renderReadme(config, repositories);
+
+  for (const repository of repositories.filter(({ name }) => !hidden.has(name))) {
+    const titleLink = `[**${repository.name}**](${repository.html_url})`;
+    const row = readme.split("\n").find((line) => line.startsWith(`| ${titleLink} |`));
+    const languageCell = row?.split(" | ")[1];
+
+    if (repository.language) {
+      assert.match(languageCell, new RegExp(`img\\.shields\\.io/badge/${repository.language}-`));
+    } else {
+      assert.equal(languageCell, "—");
+    }
+  }
 });
 
 test("uses sort.config.mjs priorities and hidden repositories", () => {
