@@ -17,7 +17,7 @@ const hidden = new Set([
 test("renders the profile and repository sections", () => {
   const readme = renderReadme(config, repositories);
 
-  assert.match(readme, /<h1 align="center">qzrzz<\/h1>/);
+  assert.ok(readme.includes(`<h1 align="center">${config.title}</h1>`));
   assert.match(readme, /## Apps/);
   assert.match(readme, /## Packages/);
   assert.match(readme, /## Resources/);
@@ -28,6 +28,27 @@ test("renders the profile and repository sections", () => {
   assert.doesNotMatch(readme, /<p align="center">\[!\[/);
   assert.doesNotMatch(readme, /\| Repository \|/);
   assert.doesNotMatch(readme, /\| :-- \|/);
+});
+
+test("shows only programming language badges in the profile header", () => {
+  const readme = renderReadme(config, repositories);
+  const headerBadges = readme
+    .split("\n")
+    .find((line) => line.startsWith('<p align="center"><img'));
+  const languages = [...new Set(
+    repositories
+      .filter(({ name }) => !hidden.has(name))
+      .map(({ language }) => language)
+      .filter(Boolean),
+  )];
+
+  assert.ok(headerBadges);
+  for (const language of languages) {
+    assert.match(headerBadges, new RegExp(`alt="${language}"`));
+  }
+  assert.doesNotMatch(headerBadges, /GitHub @/);
+  assert.doesNotMatch(headerBadges, /github\/followers/);
+  assert.doesNotMatch(headerBadges, /public repos/);
 });
 
 test("lists every visible repository exactly once", () => {
@@ -48,7 +69,7 @@ test("lists every visible repository exactly once", () => {
   }
 });
 
-test("places website badges on repository heading lines", () => {
+test("places website badges first on repository badge lines", () => {
   const readme = renderReadme(config, repositories);
 
   for (const repository of repositories.filter(({ name, homepage }) => (
@@ -56,11 +77,19 @@ test("places website badges on repository heading lines", () => {
   ))) {
     const titleLink = `[**${repository.name}**](${repository.html_url})`;
     const websiteBadge = "[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)]";
+    const lines = readme.split("\n");
+    const heading = lines
+      .find((line) => line.startsWith(`### ${titleLink}`));
+    const badgeLine = lines
+      .find((line) => line.includes(`${websiteBadge}(${repository.homepage})`));
+    assert.equal(
+      heading,
+      `### ${titleLink}`,
+      `${repository.name} heading should contain only its name`,
+    );
     assert.ok(
-      readme.split("\n").includes(
-        `### ${titleLink}   **/**   ${websiteBadge}(${repository.homepage})`,
-      ),
-      `${repository.name} should show its website badge beside its name`,
+      badgeLine?.startsWith(`${websiteBadge}(${repository.homepage})`),
+      `${repository.name} should show its website as the first badge`,
     );
   }
 
@@ -74,11 +103,41 @@ test("uses sort.config.mjs priorities and hidden repositories", () => {
     .filter((line) => line.startsWith("### "))
     .join("\n");
 
-  assert.ok(repositoryHeadings.indexOf("QLaunch") < repositoryHeadings.indexOf("Qjiao"));
-  assert.ok(repositoryHeadings.indexOf("Qjiao") < repositoryHeadings.indexOf("Qf"));
-  assert.ok(repositoryHeadings.indexOf("MinMPHash") < repositoryHeadings.indexOf("TableDB"));
-  assert.ok(repositoryHeadings.indexOf("TableDB") < repositoryHeadings.indexOf("indexless"));
-  assert.doesNotMatch(readme, /\[\*\*ghostty\*\*\]/);
+  for (const priorities of [sortConfig.APPs, sortConfig.PKGs, sortConfig.RESs ?? []]) {
+    const names = priorities.filter((name) => name && !hidden.has(name));
+    for (let index = 1; index < names.length; index += 1) {
+      assert.ok(
+        repositoryHeadings.indexOf(names[index - 1]) < repositoryHeadings.indexOf(names[index]),
+        `${names[index - 1]} should appear before ${names[index]}`,
+      );
+    }
+  }
+
+  for (const name of sortConfig.HIDEs) {
+    assert.equal(readme.includes(`[**${name}**](`), false, `${name} should be hidden`);
+  }
+});
+
+test("puts newly discovered repositories in the default section", () => {
+  const newRepository = {
+    name: "NewResource",
+    description: "A newly discovered repository.",
+    html_url: "https://github.com/qzrzz/NewResource",
+    homepage: null,
+    language: null,
+    fork: false,
+    archived: false,
+  };
+  const readme = renderReadme(config, [...repositories, newRepository]);
+  const resources = readme.slice(readme.indexOf(`## ${config.defaultSection}`));
+
+  assert.match(resources, /\[\*\*NewResource\*\*\]/);
+});
+
+test("skips repositories that no longer exist", () => {
+  const remaining = repositories.filter(({ name }) => name !== "QLaunch");
+
+  assert.doesNotThrow(() => renderReadme(config, remaining));
 });
 
 test("does not list the profile repository as a project", () => {

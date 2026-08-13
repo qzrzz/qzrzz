@@ -4,7 +4,7 @@
 
 <p align="center">看看有什么好东西</p>
 
-<p align="center"><a href="https://github.com/qzrzz"><img alt="GitHub @qzrzz" src="https://img.shields.io/badge/GitHub%20%40qzrzz-181717?style=flat-square&amp;logo=github&amp;logoColor=white"></a> <a href="https://github.com/qzrzz?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/qzrzz?style=flat-square&amp;label=followers&amp;color=236ad3"></a> <img alt="17 public repositories" src="https://img.shields.io/badge/17%20public%20repos-2ea44f?style=flat-square&amp;logo=gitbook&amp;logoColor=white"></p>
+<p align="center"><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white"> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&amp;logo=kotlin&amp;logoColor=white"> <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?style=flat-square&amp;logo=swift&amp;logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white"></p>
 
 ## Apps
 
@@ -14,11 +14,11 @@
 
 [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QLaunch) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QLaunch?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QLaunch/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QLaunch?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QLaunch/commits)
 
-### [**Qjiao**](https://github.com/qzrzz/Qjiao)      [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/Qjiao/)
+### [**Qjiao**](https://github.com/qzrzz/Qjiao)
 
 🫑 Qjiao terminal workspace for macOS. Forked from Kero.
 
-[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qjiao) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qjiao?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qjiao/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qjiao?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qjiao/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git)
+[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/Qjiao/) [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qjiao) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qjiao?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qjiao/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qjiao?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qjiao/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git)
 
 ### [**Qf**](https://github.com/qzrzz/Qf)
 
@@ -26,23 +26,23 @@
 
 [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/Qf) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/Qf?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/Qf/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/Qf?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/Qf/commits)
 
-### [**AuBookPlayer**](https://github.com/qzrzz/AuBookPlayer)      [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/AuBookPlayer/)
+### [**AuBookPlayer**](https://github.com/qzrzz/AuBookPlayer)
 
 📚 本地有声书播放器 Android local audiobook player.
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/qzrzz/AuBookPlayer) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/AuBookPlayer?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/AuBookPlayer/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/AuBookPlayer?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/AuBookPlayer/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git)
+[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/AuBookPlayer/) [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/qzrzz/AuBookPlayer) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/AuBookPlayer?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/AuBookPlayer/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/AuBookPlayer?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/AuBookPlayer/commits) ![Fork](https://img.shields.io/badge/fork-8A2BE2?style=flat-square&logo=git)
 
-### [**JuRename**](https://github.com/qzrzz/JuRename)      [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/JuRename/)
+### [**JuRename**](https://github.com/qzrzz/JuRename)
 
 🔢 序号识别重命名文件 (macOS,Windows)
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/JuRename) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/JuRename?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/JuRename/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/JuRename?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/JuRename/commits)
+[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/JuRename/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/JuRename) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/JuRename?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/JuRename/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/JuRename?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/JuRename/commits)
 
-### [**QCopy**](https://github.com/qzrzz/QCopy)      [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/QCopy/)
+### [**QCopy**](https://github.com/qzrzz/QCopy)
 
 🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.
 
-[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QCopy) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QCopy?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QCopy/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QCopy?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QCopy/commits)
+[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/QCopy/) [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/qzrzz/QCopy) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/QCopy?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/QCopy/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/QCopy?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/QCopy/commits)
 
 ### [**GitQ**](https://github.com/qzrzz/GitQ)
 
@@ -64,17 +64,17 @@
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/MinMPHash) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/MinMPHash?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/MinMPHash/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/MinMPHash?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/MinMPHash/commits)
 
-### [**TableDB**](https://github.com/qzrzz/TableDB)      [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/TableDB/)
+### [**TableDB**](https://github.com/qzrzz/TableDB)
 
 🗃️ The simplest NoSQL ORM: Seamlessly switch between SQLite and MongoDB.
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/TableDB) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/TableDB?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/TableDB/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/TableDB?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/TableDB/commits)
+[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/TableDB/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/TableDB) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/TableDB?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/TableDB/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/TableDB?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/TableDB/commits)
 
-### [**indexless**](https://github.com/qzrzz/indexless)      [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/indexless/)
+### [**indexless**](https://github.com/qzrzz/indexless)
 
 🖇️ Fractional index
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/indexless) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/indexless?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/indexless/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/indexless?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/indexless/commits)
+[![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/indexless/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/qzrzz/indexless) [![GitHub stars](https://img.shields.io/github/stars/qzrzz/indexless?style=flat-square&label=stars&color=yellow)](https://github.com/qzrzz/indexless/stargazers) [![Last commit](https://img.shields.io/github/last-commit/qzrzz/indexless?style=flat-square&label=updated&color=blue)](https://github.com/qzrzz/indexless/commits)
 
 ### [**LocalGlob**](https://github.com/qzrzz/LocalGlob)
 

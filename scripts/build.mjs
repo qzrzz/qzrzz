@@ -55,23 +55,46 @@ function htmlLinkedImage(alt, source, target) {
   return `<a href="${escapeHtml(target)}">${htmlImage(alt, source)}</a>`;
 }
 
+function languageBadgeSource(language) {
+  const style = languageStyles[language] ?? {
+    color: "555555",
+    logo: undefined,
+  };
+  return staticBadge(language, style.color, {
+    logo: style.logo,
+    logoColor: "white",
+  });
+}
+
+function languageBadge(language, format = "markdown") {
+  const source = languageBadgeSource(language);
+
+  return format === "html" ? htmlImage(language, source) : image(language, source);
+}
+
 function repositoryBadges(repository, username) {
   const repositorySegment = encodeURIComponent(repository.name);
   const ownerSegment = encodeURIComponent(username);
   const badges = [];
 
+  if (repository.homepage) {
+    badges.push(
+      linkedImage(
+        "Website",
+        staticBadge("website", "4285F4", {
+          logo: "googlechrome",
+          logoColor: "white",
+        }),
+        repository.homepage,
+      ),
+    );
+  }
+
   if (repository.language) {
-    const style = languageStyles[repository.language] ?? {
-      color: "555555",
-      logo: undefined,
-    };
     badges.push(
       linkedImage(
         repository.language,
-        staticBadge(repository.language, style.color, {
-          logo: style.logo,
-          logoColor: "white",
-        }),
+        languageBadgeSource(repository.language),
         repository.html_url,
       ),
     );
@@ -104,19 +127,9 @@ function repositoryBadges(repository, username) {
 function repositoryList(repositories, username) {
   return repositories.map((repository) => {
     const description = escapeMarkdown(repository.description ?? "No description provided.");
-    const homepage = repository.homepage
-      ? `      ${linkedImage(
-        "Website",
-        staticBadge("website", "4285F4", {
-          logo: "googlechrome",
-          logoColor: "white",
-        }),
-        repository.homepage,
-      )}`
-      : "";
     const name = `[**${escapeMarkdown(repository.name)}**](${repository.html_url})`;
 
-    return `### ${name}${homepage}\n\n${description}\n\n${repositoryBadges(repository, username)}`;
+    return `### ${name}\n\n${description}\n\n${repositoryBadges(repository, username)}`;
   }).join("\n\n");
 }
 
@@ -166,9 +179,7 @@ function resolveSections(profile, repositories, hidden, sorting) {
       }
 
       const repository = byName.get(name);
-      if (!repository) {
-        throw new Error(`Repository \`${name}\` does not exist in data/repos.json.`);
-      }
+      if (!repository) return [];
 
       assigned.add(name);
       return [repository];
@@ -183,8 +194,15 @@ function resolveSections(profile, repositories, hidden, sorting) {
   const unassigned = repositories.filter(({ name }) => !assigned.has(name));
 
   if (unassigned.length > 0) {
-    throw new Error(
-      `Repositories without a section: ${unassigned.map(({ name }) => name).join(", ")}.`,
+    const fallback = resolved.find(({ title }) => title === profile.defaultSection);
+    if (!fallback) {
+      throw new Error(`Default section \`${profile.defaultSection}\` does not exist.`);
+    }
+
+    const priorityKey = priorityKeys[fallback.title];
+    fallback.repositories = sortByPriority(
+      [...fallback.repositories, ...unassigned],
+      sorting[priorityKey] ?? [],
     );
   }
 
@@ -194,27 +212,12 @@ function resolveSections(profile, repositories, hidden, sorting) {
 export function renderReadme(profile, repositories, sorting = sortConfig) {
   const hidden = hiddenRepositoryNames(profile, sorting);
   const visible = repositories.filter((repository) => !hidden.has(repository.name));
-  const profileUrl = `https://github.com/${profile.username}`;
-  const profileBadge = htmlLinkedImage(
-    `GitHub @${profile.username}`,
-    staticBadge(`GitHub @${profile.username}`, "181717", {
-      logo: "github",
-      logoColor: "white",
-    }),
-    profileUrl,
-  );
-  const followersBadge = htmlLinkedImage(
-    "GitHub followers",
-    `https://img.shields.io/github/followers/${encodeURIComponent(profile.username)}?style=flat-square&label=followers&color=236ad3`,
-    `${profileUrl}?tab=followers`,
-  );
-  const repositoryCountBadge = htmlImage(
-    `${visible.length} public repositories`,
-    staticBadge(`${visible.length} public repos`, "2ea44f", {
-      logo: "gitbook",
-      logoColor: "white",
-    }),
-  );
+  const languages = [...new Set(
+    visible.map(({ language }) => language).filter(Boolean),
+  )].sort((left, right) => left.localeCompare(right, "en"));
+  const languageBadges = languages
+    .map((language) => languageBadge(language, "html"))
+    .join(" ");
 
   const sections = resolveSections(profile, visible, hidden, sorting)
     .map(({ title, repositories: sectionRepositories }) => (
@@ -229,7 +232,7 @@ export function renderReadme(profile, repositories, sorting = sortConfig) {
     "",
     `<p align="center">${escapeHtml(profile.intro)}</p>`,
     "",
-    `<p align="center">${profileBadge} ${followersBadge} ${repositoryCountBadge}</p>`,
+    `<p align="center">${languageBadges}</p>`,
     "",
     ...sections.flatMap((value) => [value, ""]),
     "<p align=\"center\"><sub>Badges powered by <a href=\"https://shields.io/\">Shields.io</a>.</sub></p>",
@@ -302,11 +305,11 @@ async function main() {
     ? await fetchRepositories(config.username)
     : await readRepositories();
 
+  const readme = renderReadme(config, repositories);
+
   if (refresh) {
     await writeFile(repositoriesPath, `${JSON.stringify(repositories, null, 2)}\n`);
   }
-
-  const readme = renderReadme(config, repositories);
 
   if (check) {
     const existing = await readFile(readmePath, "utf8").catch(() => "");

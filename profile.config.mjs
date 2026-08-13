@@ -3,6 +3,7 @@ export default {
   title: "Qzrzz",
   intro: "看看有什么好东西",
   hiddenRepositories: ["qzrzz"],
+  defaultSection: "Resources",
   sections: [
     {
       title: "Apps",
