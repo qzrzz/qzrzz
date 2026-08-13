@@ -1,0 +1,173 @@
+[
+  {
+    "name": "qzrzz",
+    "description": null,
+    "html_url": "https://github.com/qzrzz/qzrzz",
+    "homepage": null,
+    "language": null,
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "QLaunch",
+    "description": "🚀 A fast, minimal, high-quality open-source alternative to Launchpad for macOS.",
+    "html_url": "https://github.com/qzrzz/QLaunch",
+    "homepage": null,
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "JuRename",
+    "description": "🔢 序号识别重命名文件 (macOS,Windows)",
+    "html_url": "https://github.com/qzrzz/JuRename",
+    "homepage": "https://qzrzz.github.io/JuRename/",
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "Qf",
+    "description": "💨 Qf 轻放 - System Context Enrichment",
+    "html_url": "https://github.com/qzrzz/Qf",
+    "homepage": null,
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "AuBookPlayer",
+    "description": "📚 本地有声书播放器 Android local audiobook player.",
+    "html_url": "https://github.com/qzrzz/AuBookPlayer",
+    "homepage": "https://qzrzz.github.io/AuBookPlayer/",
+    "language": "Kotlin",
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "Qjiao",
+    "description": "🫑 Qjiao terminal workspace for macOS. Forked from Kero.",
+    "html_url": "https://github.com/qzrzz/Qjiao",
+    "homepage": "https://qzrzz.github.io/Qjiao/",
+    "language": "Swift",
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "QCopy",
+    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
+    "html_url": "https://github.com/qzrzz/QCopy",
+    "homepage": "https://qzrzz.github.io/QCopy/",
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "TableDB",
+    "description": "🗃️ The simplest NoSQL ORM: Seamlessly switch between SQLite and MongoDB.",
+    "html_url": "https://github.com/qzrzz/TableDB",
+    "homepage": "https://qzrzz.github.io/TableDB/",
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "ghostty",
+    "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "html_url": "https://github.com/qzrzz/ghostty",
+    "homepage": "https://ghostty.org",
+    "language": null,
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "GitQ",
+    "description": "👨🏻‍💻 Quickly switch Git user config.",
+    "html_url": "https://github.com/qzrzz/GitQ",
+    "homepage": null,
+    "language": "Go",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "xm2aac",
+    "description": "🐯 covert xm file to aac.",
+    "html_url": "https://github.com/qzrzz/xm2aac",
+    "homepage": null,
+    "language": null,
+    "fork": false,
+    "archived": true
+  },
+  {
+    "name": "indexless",
+    "description": "🖇️ Fractional index",
+    "html_url": "https://github.com/qzrzz/indexless",
+    "homepage": "https://qzrzz.github.io/indexless/",
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "RetroNokia_6708",
+    "description": "Retro Nokia 6708 ROM",
+    "html_url": "https://github.com/qzrzz/RetroNokia_6708",
+    "homepage": null,
+    "language": null,
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "newpkg",
+    "description": "🐣 TypeScript new project template.",
+    "html_url": "https://github.com/qzrzz/newpkg",
+    "homepage": null,
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "LocalGlob",
+    "description": null,
+    "html_url": "https://github.com/qzrzz/LocalGlob",
+    "homepage": null,
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "RemoteCtx",
+    "description": "🛰️ Access another JavaScript context just like local.",
+    "html_url": "https://github.com/qzrzz/RemoteCtx",
+    "homepage": null,
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "SF-Symbols-JSON",
+    "description": "🍎 SF Symbols Chars and Keys in JSON format.",
+    "html_url": "https://github.com/qzrzz/SF-Symbols-JSON",
+    "homepage": null,
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "Kindle-Fonts-Test",
+    "description": "🗚 fonts",
+    "html_url": "https://github.com/qzrzz/Kindle-Fonts-Test",
+    "homepage": null,
+    "language": null,
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "MinMPHash",
+    "description": "🦋 JavaScript/TypeScript Minimal Perfect Hash & Lookup",
+    "html_url": "https://github.com/qzrzz/MinMPHash",
+    "homepage": null,
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  }
+]

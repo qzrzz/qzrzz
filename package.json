@@ -1,0 +1,16 @@
+{
+  "name": "qzrzz-profile-readme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Generator for the qzrzz GitHub profile README",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:check": "node scripts/build.mjs --check",
+    "refresh": "node scripts/build.mjs --refresh",
+    "test": "node --test && npm run build:check"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
