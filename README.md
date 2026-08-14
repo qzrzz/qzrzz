@@ -10,10 +10,10 @@
 
 | Repository | Lang | About | Website |
 | :-- | :-- | :-- | :-- |
-| [**QLaunch**](https://github.com/qzrzz/QLaunch) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 🚀 A fast, minimal, high-quality open-source alternative to Launchpad for macOS. | — |
-| [**Qjiao**](https://github.com/qzrzz/Qjiao) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 🫑 Qjiao terminal workspace for macOS. Forked from Kero. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/Qjiao/) |
-| [**Qf**](https://github.com/qzrzz/Qf) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 💨 Qf 轻放 - System Context Enrichment | — |
-| [**AuBookPlayer**](https://github.com/qzrzz/AuBookPlayer) | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) | 📚 本地有声书播放器 Android local audiobook player. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/AuBookPlayer/) |
+| [**QLaunch**](https://github.com/qzrzz/QLaunch) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 🚀 A fast, minimal, high-quality  Launchpad for macOS. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/QLaunch/) |
+| [**Qjiao**](https://github.com/qzrzz/Qjiao) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 🫑 Qjiao  terminal workspace for macOS. Forked from Kero. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/Qjiao/) |
+| [**Qf**](https://github.com/qzrzz/Qf) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 💨  Qf 轻放 -  System  Context Enrichment | — |
+| [**AuBookPlayer**](https://github.com/qzrzz/AuBookPlayer) | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) | 📚   本地有声书播放器 Android local audiobook player. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/AuBookPlayer/) |
 | [**JuRename**](https://github.com/qzrzz/JuRename) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🔢 序号识别重命名文件 (macOS,Windows) | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/JuRename/) |
 | [**QCopy**](https://github.com/qzrzz/QCopy) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/QCopy/) |
 | [**GitQ**](https://github.com/qzrzz/GitQ) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | 👨🏻‍💻 Quickly switch Git user config. | — |
@@ -26,7 +26,7 @@
 | [**MinMPHash**](https://github.com/qzrzz/MinMPHash) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🦋 JavaScript/TypeScript Minimal Perfect Hash & Lookup | — |
 | [**TableDB**](https://github.com/qzrzz/TableDB) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🗃️ The simplest NoSQL ORM: Seamlessly switch between SQLite and MongoDB. | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/TableDB/) |
 | [**indexless**](https://github.com/qzrzz/indexless) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🖇️ Fractional index | [![Website](https://img.shields.io/badge/website-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://qzrzz.github.io/indexless/) |
-| [**LocalGlob**](https://github.com/qzrzz/LocalGlob) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | No description provided. | — |
+| [**LocalGlob**](https://github.com/qzrzz/LocalGlob) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🤲 Glob library that automatically switches | — |
 | [**RemoteCtx**](https://github.com/qzrzz/RemoteCtx) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🛰️ Access another JavaScript context just like local. | — |
 
 ## Resources
@@ -34,7 +34,7 @@
 | Repository | Lang | About | Website |
 | :-- | :-- | :-- | :-- |
 | [**RetroNokia_6708**](https://github.com/qzrzz/RetroNokia_6708) | — | Retro Nokia 6708 ROM | — |
-| [**newpkg**](https://github.com/qzrzz/newpkg) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🐣 TypeScript new project template. | — |
+| [**newpkg**](https://github.com/qzrzz/newpkg) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🐣   TypeScript new project template. | — |
 | [**SF-Symbols-JSON**](https://github.com/qzrzz/SF-Symbols-JSON) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🍎 SF Symbols Chars and Keys in JSON format. | — |
 | [**Kindle-Fonts-Test**](https://github.com/qzrzz/Kindle-Fonts-Test) | — | 🗚 fonts | — |
 

@@ -1,19 +1,28 @@
 [
   {
-    "name": "qzrzz",
-    "description": null,
-    "html_url": "https://github.com/qzrzz/qzrzz",
-    "homepage": null,
-    "language": null,
+    "name": "QLaunch",
+    "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
+    "html_url": "https://github.com/qzrzz/QLaunch",
+    "homepage": "https://qzrzz.github.io/QLaunch/",
+    "language": "Swift",
     "fork": false,
     "archived": false
   },
   {
-    "name": "QLaunch",
-    "description": "🚀 A fast, minimal, high-quality open-source alternative to Launchpad for macOS.",
-    "html_url": "https://github.com/qzrzz/QLaunch",
+    "name": "qzrzz",
+    "description": null,
+    "html_url": "https://github.com/qzrzz/qzrzz",
     "homepage": null,
-    "language": "Swift",
+    "language": "JavaScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "LocalGlob",
+    "description": "🤲 Glob library that automatically switches",
+    "html_url": "https://github.com/qzrzz/LocalGlob",
+    "homepage": null,
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
@@ -28,7 +37,7 @@
   },
   {
     "name": "Qf",
-    "description": "💨 Qf 轻放 - System Context Enrichment",
+    "description": "💨  Qf 轻放 -  System  Context Enrichment",
     "html_url": "https://github.com/qzrzz/Qf",
     "homepage": null,
     "language": "Swift",
@@ -37,7 +46,7 @@
   },
   {
     "name": "AuBookPlayer",
-    "description": "📚 本地有声书播放器 Android local audiobook player.",
+    "description": "📚   本地有声书播放器 Android local audiobook player.",
     "html_url": "https://github.com/qzrzz/AuBookPlayer",
     "homepage": "https://qzrzz.github.io/AuBookPlayer/",
     "language": "Kotlin",
@@ -46,7 +55,7 @@
   },
   {
     "name": "Qjiao",
-    "description": "🫑 Qjiao terminal workspace for macOS. Forked from Kero.",
+    "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
     "html_url": "https://github.com/qzrzz/Qjiao",
     "homepage": "https://qzrzz.github.io/Qjiao/",
     "language": "Swift",
@@ -100,7 +109,7 @@
   },
   {
     "name": "indexless",
-    "description": "🖇️ Fractional index",
+    "description": "🖇️ Fractional index ",
     "html_url": "https://github.com/qzrzz/indexless",
     "homepage": "https://qzrzz.github.io/indexless/",
     "language": "TypeScript",
@@ -118,17 +127,8 @@
   },
   {
     "name": "newpkg",
-    "description": "🐣 TypeScript new project template.",
+    "description": "🐣   TypeScript new project template.",
     "html_url": "https://github.com/qzrzz/newpkg",
-    "homepage": null,
-    "language": "TypeScript",
-    "fork": false,
-    "archived": false
-  },
-  {
-    "name": "LocalGlob",
-    "description": null,
-    "html_url": "https://github.com/qzrzz/LocalGlob",
     "homepage": null,
     "language": "TypeScript",
     "fork": false,
@@ -163,7 +163,7 @@
   },
   {
     "name": "MinMPHash",
-    "description": "🦋 JavaScript/TypeScript Minimal Perfect Hash & Lookup",
+    "description": "🦋 JavaScript/TypeScript Minimal Perfect Hash & Lookup ",
     "html_url": "https://github.com/qzrzz/MinMPHash",
     "homepage": null,
     "language": "TypeScript",
