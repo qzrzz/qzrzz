@@ -1,10 +1,46 @@
 [
   {
+    "name": "QCopy",
+    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
+    "html_url": "https://github.com/qzrzz/QCopy",
+    "homepage": "https://qzrzz.com/QCopy",
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "Qjiao",
+    "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
+    "html_url": "https://github.com/qzrzz/Qjiao",
+    "homepage": "https://qzrzz.com/Qjiao",
+    "language": "Swift",
+    "fork": true,
+    "archived": false
+  },
+  {
     "name": "QLaunch",
     "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
     "html_url": "https://github.com/qzrzz/QLaunch",
-    "homepage": "https://qzrzz.github.io/QLaunch/",
+    "homepage": "https://qzrzz.com/QLaunch",
     "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "QRls",
+    "description": "🚐  Product Release Artifact Distribution Tool.",
+    "html_url": "https://github.com/qzrzz/QRls",
+    "homepage": null,
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "newpkg",
+    "description": "🐣   TypeScript new project template.",
+    "html_url": "https://github.com/qzrzz/newpkg",
+    "homepage": null,
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
@@ -51,24 +87,6 @@
     "homepage": "https://qzrzz.github.io/AuBookPlayer/",
     "language": "Kotlin",
     "fork": true,
-    "archived": false
-  },
-  {
-    "name": "Qjiao",
-    "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
-    "html_url": "https://github.com/qzrzz/Qjiao",
-    "homepage": "https://qzrzz.github.io/Qjiao/",
-    "language": "Swift",
-    "fork": true,
-    "archived": false
-  },
-  {
-    "name": "QCopy",
-    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
-    "html_url": "https://github.com/qzrzz/QCopy",
-    "homepage": "https://qzrzz.github.io/QCopy/",
-    "language": "Swift",
-    "fork": false,
     "archived": false
   },
   {
@@ -122,15 +140,6 @@
     "html_url": "https://github.com/qzrzz/RetroNokia_6708",
     "homepage": null,
     "language": null,
-    "fork": false,
-    "archived": false
-  },
-  {
-    "name": "newpkg",
-    "description": "🐣   TypeScript new project template.",
-    "html_url": "https://github.com/qzrzz/newpkg",
-    "homepage": null,
-    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
