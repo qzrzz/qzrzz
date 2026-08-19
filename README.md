@@ -37,6 +37,7 @@
 | [**newpkg**](https://github.com/qzrzz/newpkg) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🐣   TypeScript new project template. | — |
 | [**SF-Symbols-JSON**](https://github.com/qzrzz/SF-Symbols-JSON) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🍎 SF Symbols Chars and Keys in JSON format. | — |
 | [**Kindle-Fonts-Test**](https://github.com/qzrzz/Kindle-Fonts-Test) | — | 🗚 fonts | — |
+| [**QxCar**](https://github.com/qzrzz/QxCar) | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) | 🧤 Extract image assets and .icon source files from the Assets.car file of a macOS application. | — |
 | [**QRls**](https://github.com/qzrzz/QRls) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 🚐  Product Release Artifact Distribution Tool. | — |
 
 <p align="center"><sub>Badges powered by <a href="https://shields.io/">Shields.io</a>.</sub></p>

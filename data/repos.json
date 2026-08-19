@@ -1,20 +1,38 @@
 [
   {
-    "name": "QCopy",
-    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
-    "html_url": "https://github.com/qzrzz/QCopy",
-    "homepage": "https://qzrzz.com/QCopy",
-    "language": "Swift",
-    "fork": false,
-    "archived": false
-  },
-  {
     "name": "Qjiao",
     "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
     "html_url": "https://github.com/qzrzz/Qjiao",
     "homepage": "https://qzrzz.com/Qjiao",
     "language": "Swift",
     "fork": true,
+    "archived": false
+  },
+  {
+    "name": "AuBookPlayer",
+    "description": "📚   本地有声书播放器 Android local audiobook player.",
+    "html_url": "https://github.com/qzrzz/AuBookPlayer",
+    "homepage": "https://qzrzz.github.io/AuBookPlayer/",
+    "language": "Kotlin",
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "JuRename",
+    "description": "🔢 序号识别重命名文件 (macOS,Windows)",
+    "html_url": "https://github.com/qzrzz/JuRename",
+    "homepage": "https://qzrzz.github.io/JuRename/",
+    "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "QxCar",
+    "description": "🧤 Extract image assets and .icon source files from the Assets.car file of a macOS application.",
+    "html_url": "https://github.com/qzrzz/QxCar",
+    "homepage": null,
+    "language": "Swift",
+    "fork": false,
     "archived": false
   },
   {
@@ -36,20 +54,29 @@
     "archived": false
   },
   {
-    "name": "newpkg",
-    "description": "🐣   TypeScript new project template.",
-    "html_url": "https://github.com/qzrzz/newpkg",
-    "homepage": null,
-    "language": "TypeScript",
-    "fork": false,
-    "archived": false
-  },
-  {
     "name": "qzrzz",
     "description": null,
     "html_url": "https://github.com/qzrzz/qzrzz",
     "homepage": null,
     "language": "JavaScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "QCopy",
+    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
+    "html_url": "https://github.com/qzrzz/QCopy",
+    "homepage": "https://qzrzz.com/QCopy",
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "newpkg",
+    "description": "🐣   TypeScript new project template.",
+    "html_url": "https://github.com/qzrzz/newpkg",
+    "homepage": null,
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
@@ -63,30 +90,12 @@
     "archived": false
   },
   {
-    "name": "JuRename",
-    "description": "🔢 序号识别重命名文件 (macOS,Windows)",
-    "html_url": "https://github.com/qzrzz/JuRename",
-    "homepage": "https://qzrzz.github.io/JuRename/",
-    "language": "TypeScript",
-    "fork": false,
-    "archived": false
-  },
-  {
     "name": "Qf",
     "description": "💨  Qf 轻放 -  System  Context Enrichment",
     "html_url": "https://github.com/qzrzz/Qf",
     "homepage": null,
     "language": "Swift",
     "fork": false,
-    "archived": false
-  },
-  {
-    "name": "AuBookPlayer",
-    "description": "📚   本地有声书播放器 Android local audiobook player.",
-    "html_url": "https://github.com/qzrzz/AuBookPlayer",
-    "homepage": "https://qzrzz.github.io/AuBookPlayer/",
-    "language": "Kotlin",
-    "fork": true,
     "archived": false
   },
   {
