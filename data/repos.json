@@ -9,33 +9,6 @@
     "archived": false
   },
   {
-    "name": "AuBookPlayer",
-    "description": "📚   本地有声书播放器 Android local audiobook player.",
-    "html_url": "https://github.com/qzrzz/AuBookPlayer",
-    "homepage": "https://qzrzz.github.io/AuBookPlayer/",
-    "language": "Kotlin",
-    "fork": true,
-    "archived": false
-  },
-  {
-    "name": "JuRename",
-    "description": "🔢 序号识别重命名文件 (macOS,Windows)",
-    "html_url": "https://github.com/qzrzz/JuRename",
-    "homepage": "https://qzrzz.github.io/JuRename/",
-    "language": "TypeScript",
-    "fork": false,
-    "archived": false
-  },
-  {
-    "name": "QxCar",
-    "description": "🧤 Extract image assets and .icon source files from the Assets.car file of a macOS application.",
-    "html_url": "https://github.com/qzrzz/QxCar",
-    "homepage": null,
-    "language": "Swift",
-    "fork": false,
-    "archived": false
-  },
-  {
     "name": "QLaunch",
     "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
     "html_url": "https://github.com/qzrzz/QLaunch",
@@ -45,11 +18,38 @@
     "archived": false
   },
   {
-    "name": "QRls",
-    "description": "🚐  Product Release Artifact Distribution Tool.",
-    "html_url": "https://github.com/qzrzz/QRls",
-    "homepage": null,
+    "name": "QxCar",
+    "description": "🧤 Extract image assets and .icon source files from the Assets.car file of a macOS application.",
+    "html_url": "https://github.com/qzrzz/QxCar",
+    "homepage": "https://qzrzz.com/QxCar/",
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "AuBookPlayer",
+    "description": "📚   本地有声书播放器 Android local audiobook player.",
+    "html_url": "https://github.com/qzrzz/AuBookPlayer",
+    "homepage": "https://qzrzz.com/AuBookPlayer/",
+    "language": "Kotlin",
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "JuRename",
+    "description": "🔢 序号识别重命名文件 (macOS,Windows)",
+    "html_url": "https://github.com/qzrzz/JuRename",
+    "homepage": "https://qzrzz.com/JuRename/",
     "language": "TypeScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "QCopy",
+    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
+    "html_url": "https://github.com/qzrzz/QCopy",
+    "homepage": "https://qzrzz.com/QCopy",
+    "language": "Swift",
     "fork": false,
     "archived": false
   },
@@ -63,11 +63,11 @@
     "archived": false
   },
   {
-    "name": "QCopy",
-    "description": "🐳 Fast copying and moving across NAS, USB, and other devices, macOS FastCopy.",
-    "html_url": "https://github.com/qzrzz/QCopy",
-    "homepage": "https://qzrzz.com/QCopy",
-    "language": "Swift",
+    "name": "QRls",
+    "description": "🚐  Product Release Artifact Distribution Tool.",
+    "html_url": "https://github.com/qzrzz/QRls",
+    "homepage": null,
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
