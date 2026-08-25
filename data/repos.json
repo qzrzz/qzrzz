@@ -1,10 +1,10 @@
 [
   {
-    "name": "Q_____c",
-    "description": "🐎 可逆马赛克工具",
-    "html_url": "https://github.com/qzrzz/Q_____c",
-    "homepage": "https://qzrzz.github.io/Q_____c/",
-    "language": "TypeScript",
+    "name": "QLaunch",
+    "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
+    "html_url": "https://github.com/qzrzz/QLaunch",
+    "homepage": "https://qzrzz.com/QLaunch",
+    "language": "Swift",
     "fork": false,
     "archived": false
   },
@@ -18,28 +18,10 @@
     "archived": false
   },
   {
-    "name": "Qf",
-    "description": "💨  Qf 轻放 -  System  Context Enrichment",
-    "html_url": "https://github.com/qzrzz/Qf",
-    "homepage": null,
-    "language": "Swift",
-    "fork": false,
-    "archived": false
-  },
-  {
-    "name": "QLaunch",
-    "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
-    "html_url": "https://github.com/qzrzz/QLaunch",
-    "homepage": "https://qzrzz.com/QLaunch",
-    "language": "Swift",
-    "fork": false,
-    "archived": false
-  },
-  {
-    "name": "newpkg",
-    "description": "🐣   TypeScript new project template.",
-    "html_url": "https://github.com/qzrzz/newpkg",
-    "homepage": null,
+    "name": "Q_____c",
+    "description": "🐎 可逆马赛克工具",
+    "html_url": "https://github.com/qzrzz/Q_____c",
+    "homepage": "https://qzrzz.github.io/Q_____c/",
     "language": "TypeScript",
     "fork": false,
     "archived": false
@@ -50,6 +32,24 @@
     "html_url": "https://github.com/qzrzz/qzrzz",
     "homepage": null,
     "language": "JavaScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "Qf",
+    "description": "💨  Qf 轻放 -  System  Context Enrichment",
+    "html_url": "https://github.com/qzrzz/Qf",
+    "homepage": null,
+    "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "newpkg",
+    "description": "🐣   TypeScript new project template.",
+    "html_url": "https://github.com/qzrzz/newpkg",
+    "homepage": null,
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
