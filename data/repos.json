@@ -1,10 +1,10 @@
 [
   {
-    "name": "QLaunch",
-    "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
-    "html_url": "https://github.com/qzrzz/QLaunch",
-    "homepage": "https://qzrzz.com/QLaunch",
-    "language": "Swift",
+    "name": "Q_____c",
+    "description": "🐎 可逆马赛克工具",
+    "html_url": "https://github.com/qzrzz/Q_____c",
+    "homepage": "https://qzrzz.github.io/Q_____c/",
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
@@ -18,12 +18,12 @@
     "archived": false
   },
   {
-    "name": "Q_____c",
-    "description": "🐎 可逆马赛克工具",
-    "html_url": "https://github.com/qzrzz/Q_____c",
-    "homepage": "https://qzrzz.github.io/Q_____c/",
-    "language": "TypeScript",
-    "fork": false,
+    "name": "Qjiao",
+    "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
+    "html_url": "https://github.com/qzrzz/Qjiao",
+    "homepage": "https://qzrzz.com/Qjiao",
+    "language": "Swift",
+    "fork": true,
     "archived": false
   },
   {
@@ -32,6 +32,15 @@
     "html_url": "https://github.com/qzrzz/qzrzz",
     "homepage": null,
     "language": "JavaScript",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "QLaunch",
+    "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
+    "html_url": "https://github.com/qzrzz/QLaunch",
+    "homepage": "https://qzrzz.com/QLaunch",
+    "language": "Swift",
     "fork": false,
     "archived": false
   },
@@ -51,15 +60,6 @@
     "homepage": null,
     "language": "TypeScript",
     "fork": false,
-    "archived": false
-  },
-  {
-    "name": "Qjiao",
-    "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
-    "html_url": "https://github.com/qzrzz/Qjiao",
-    "homepage": "https://qzrzz.com/Qjiao",
-    "language": "Swift",
-    "fork": true,
     "archived": false
   },
   {
