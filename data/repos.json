@@ -1,18 +1,9 @@
 [
   {
-    "name": "AuBookPlayer",
-    "description": "📚   本地有声书播放器 Android local audiobook player.",
-    "html_url": "https://github.com/qzrzz/AuBookPlayer",
-    "homepage": "https://qzrzz.com/AuBookPlayer/",
-    "language": "Kotlin",
-    "fork": true,
-    "archived": false
-  },
-  {
-    "name": "QEpub",
-    "description": "📚 macOS Native EPUB Reader.",
-    "html_url": "https://github.com/qzrzz/QEpub",
-    "homepage": "https://qzrzz.com/QEpub/",
+    "name": "QxCar",
+    "description": "🧤 Extract image assets and .icon source files from the Assets.car file of a macOS application.",
+    "html_url": "https://github.com/qzrzz/QxCar",
+    "homepage": "https://qzrzz.com/QxCar/",
     "language": "Swift",
     "fork": false,
     "archived": false
@@ -27,20 +18,20 @@
     "archived": false
   },
   {
-    "name": "Q_____c",
-    "description": "🐎 可逆马赛克工具",
-    "html_url": "https://github.com/qzrzz/Q_____c",
-    "homepage": "https://qzrzz.github.io/Q_____c/",
-    "language": "TypeScript",
-    "fork": false,
-    "archived": false
-  },
-  {
     "name": "Qjiao",
     "description": "🫑 Qjiao  terminal workspace for macOS. Forked from Kero.",
     "html_url": "https://github.com/qzrzz/Qjiao",
     "homepage": "https://qzrzz.com/Qjiao",
     "language": "Swift",
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "AuBookPlayer",
+    "description": "📚   本地有声书播放器 Android local audiobook player.",
+    "html_url": "https://github.com/qzrzz/AuBookPlayer",
+    "homepage": "https://qzrzz.com/AuBookPlayer/",
+    "language": "Kotlin",
     "fork": true,
     "archived": false
   },
@@ -54,11 +45,20 @@
     "archived": false
   },
   {
-    "name": "QxCar",
-    "description": "🧤 Extract image assets and .icon source files from the Assets.car file of a macOS application.",
-    "html_url": "https://github.com/qzrzz/QxCar",
-    "homepage": "https://qzrzz.com/QxCar/",
+    "name": "QEpub",
+    "description": "📚 macOS Native EPUB Reader.",
+    "html_url": "https://github.com/qzrzz/QEpub",
+    "homepage": "https://qzrzz.com/QEpub/",
     "language": "Swift",
+    "fork": false,
+    "archived": false
+  },
+  {
+    "name": "Q_____c",
+    "description": "🐎 可逆马赛克工具",
+    "html_url": "https://github.com/qzrzz/Q_____c",
+    "homepage": "https://qzrzz.github.io/Q_____c/",
+    "language": "TypeScript",
     "fork": false,
     "archived": false
   },
