@@ -1,23 +1,5 @@
 [
   {
-    "name": "awesome-swift-macos-apps",
-    "description": "A curated collection of open-source macOS applications built with Swift",
-    "html_url": "https://github.com/qzrzz/awesome-swift-macos-apps",
-    "homepage": "https://wangchujiang.com/awesome-swift-macos-apps/",
-    "language": null,
-    "fork": true,
-    "archived": false
-  },
-  {
-    "name": "awesome-mac",
-    "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
-    "html_url": "https://github.com/qzrzz/awesome-mac",
-    "homepage": "https://git.io/macx",
-    "language": null,
-    "fork": true,
-    "archived": false
-  },
-  {
     "name": "QLaunch",
     "description": "🚀 A fast, minimal, high-quality  Launchpad for macOS.",
     "html_url": "https://github.com/qzrzz/QLaunch",
@@ -42,6 +24,24 @@
     "homepage": null,
     "language": "JavaScript",
     "fork": false,
+    "archived": false
+  },
+  {
+    "name": "awesome-swift-macos-apps",
+    "description": "A curated collection of open-source macOS applications built with Swift",
+    "html_url": "https://github.com/qzrzz/awesome-swift-macos-apps",
+    "homepage": "https://wangchujiang.com/awesome-swift-macos-apps/",
+    "language": null,
+    "fork": true,
+    "archived": false
+  },
+  {
+    "name": "awesome-mac",
+    "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+    "html_url": "https://github.com/qzrzz/awesome-mac",
+    "homepage": "https://git.io/macx",
+    "language": null,
+    "fork": true,
     "archived": false
   },
   {
